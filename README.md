@@ -46,13 +46,4 @@ It allows customers to book tables, vendors (restaurant owners) to manage their 
 
 ---
 
-## 🚀 Features
-- RESTful API architecture  
-- Real-time restaurant and table management  
-- Swagger-based API documentation  
-- Postman collection for testing  
-- Modular and clean code structure
-- Mongoose-based schema modeling for MongoDB  
-
----
 
