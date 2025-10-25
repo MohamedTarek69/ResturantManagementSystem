@@ -1,67 +1,58 @@
-# 🍽️ Real-time Restaurant Reservation System
+# 🍽️ Real-time Restaurant Reservation System (Backend)
 
 ## 📘 Overview
-The **Real-time Restaurant Reservation System** is a web-based platform that allows customers to book tables in restaurants in real-time, while enabling vendors (restaurant owners) to manage their restaurants, reservations, and offers efficiently.  
-Admins can manage vendors, restaurants, and overall system data.
+The **Real-time Restaurant Reservation System** is a backend service built using **Node.js** and **Express.js**, designed to manage real-time restaurant reservations.  
+It allows customers to book tables, vendors (restaurant owners) to manage their restaurants and offers, and admins to monitor system operations efficiently.
+
+---
+
+## ⚙️ Tech Stack
+- **Runtime:** Node.js  
+- **Framework:** Express.js  
+- **Database:** MongoDB (with Mongoose ODM)  
+- **Documentation:** Swagger  
+- **Testing:** Postman  
+- **Language:** JavaScript (ES6)
 
 ---
 
 ## 🧩 System Modules
 
 ### 👨‍💼 Admin Module
-**Admin can:**
-- Add, view, and delete vendors.
-- View all restaurants and reservations across the platform.
-
----
+- Manage vendors (add, view, and delete).  
+- Access all restaurants and reservations.  
 
 ### 🏢 Vendor Module
-**Vendors can:**
-- Add, update, and delete restaurant details:
-  - Name, description, image, food category, tables, seats per table, time slots, and sales points.
-- Create and manage offers, notify customers.
-- Cancel reservations and inform customers.
-- View customer reviews and FAQs, and optionally respond.
-- Track reservations **in real time**.
-
----
+- Add, update, and delete restaurant information (name, category, time slots, tables, offers).  
+- View real-time reservation data.  
+- Cancel reservations and notify customers.  
+- Manage special offers and respond to FAQs.  
 
 ### 👥 Customer Module
-**Customers can:**
-- View restaurants by:
-  - Name, menu, food category, city, ratings.
-- Manage reservations:
-  - Make, update, or cancel a reservation.
-  - Order food when booking.
-  - Add special requests.
-  - Leave restaurant reviews.
-- See **real-time table availability** before booking.
+- View restaurants by name, food category, city, rating, or proximity.  
+- Create, update, or cancel reservations.  
+- View real-time table availability.  
+- Add reviews and feedback.  
 
 ---
 
-## ⚙️ Non-Functional Requirements
-| Requirement | Description |
-|--------------|-------------|
-| **Performance** | Must handle real-time updates for table reservations efficiently. |
-| **Security** | Secure storage for customer and reservation data; encrypted communication. |
-| **Usability** | Simple, intuitive interface for both vendors and customers. |
-| **Reliability** | System should perform consistently and correctly under normal conditions. |
+## 🔒 Non-Functional Requirements
+| Aspect | Description |
+|--------|-------------|
+| **Performance** | Efficient real-time handling of reservations and updates. |
+| **Security** | Secure data storage and encrypted communication. |
+| **Usability** | Simple and intuitive API design. |
+| **Reliability** | Consistent and stable performance under load. |
 
 ---
 
-## 🛠️ Tech Stack
-
-- **Backend:** Node.js  
-- **Database:** MongoDB  
-- **Real-Time Updates:** WebSockets  
-
----
-
-## 🚀 Features Summary
-- Real-time tracking for restaurant tables and reservations.  
-- Multi-role access (Admin, Vendor, Customer).  
-- Dynamic management of restaurants, offers, and bookings.  
-- User feedback and review system.  
+## 🚀 Features
+- RESTful API architecture  
+- Real-time restaurant and table management  
+- Swagger-based API documentation  
+- Postman collection for testing  
+- Modular and clean code structure
+- Mongoose-based schema modeling for MongoDB  
 
 ---
 
